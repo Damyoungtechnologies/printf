@@ -18,33 +18,7 @@ int _printf(const char *format, ...)
 		return (-1);
 
 	va_start(list, format);
-
-	// This is starting from here
 	
-
-	switch (format[a + 1]) {
-    case 'c':
-        // Handle printing a character
-        // Use va_arg to extract the character from the argument list
-        char ch = va_arg(list, int); // char promotes to int in variadic functions
-        // Print the character
-        // Update the variables as needed
-        break;
-    case 's':
-        // Handle printing a string
-        // Use va_arg to extract the string (char*) from the argument list
-        char *str = va_arg(list, char*);
-        // Print the string
-        // Update the variables as needed
-        break;
-    case '%':
-        // Handle printing '%'
-        // Print '%' character
-        // Update the variables as needed
-        break;
-    // Handle additional format specifiers as needed
-}
-
 	for (a = 0; format && format[a] != '\0'; a++)
 	{
 		if (format[a] != '%')
