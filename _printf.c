@@ -4,7 +4,7 @@ void print_buffer(char buffer[], int *buff_ind);
 
 /**
  * _printf - printf cannot work without it
- * @format: format.
+ * @format: format. Cry out
  * Return: Printed chars.
  */
 int _printf(const char *format, ...)
@@ -55,7 +55,7 @@ int _printf(const char *format, ...)
 /**
  * print_buffer - buffers job to go
  * @buffer: Array of chars buffering the code
- * @buff_ind: Index at which to add next char, represents the length.
+ * @buff_ind: Index. you no fit flag me o
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
