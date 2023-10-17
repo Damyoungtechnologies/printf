@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * handle_print - Prints an argument based on its type
+ * handle_print - Prints an argument based on what per se
  * @fmt: Formatted string in which to print the arguments.
  * @list: List arguments to be printedlllllm
- * @ind: ind.
+ * @ind: ind. is an argument only
  * @buffer: Buffer array to handle print.
  * @flags: Calculates active flags
  * @width: get width.khik
  * @precision: Precision specification
- * @size: Size specifier capahug
+ * @size: Size specifier capahug on the run
  * Return: 1 or 2;
  */
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[],
