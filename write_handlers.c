@@ -8,7 +8,7 @@
  * @flags:  Calculates active flags.
  * @width: get width.
  * @precision: precision specifier
- * @size: Size specifier
+ * @size: Size specifier increase or reduce
  *
  * Return: Number of chars printed.
  */
@@ -48,12 +48,12 @@ int handle_write_char(char c, char buffer[],
 /**
  * write_number - Prints a string
  * @is_negative: Lista of arguments
- * @ind: char types.
+ * @ind: char types. No cap. i fucked up
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
  * @precision: precision specifier
- * @size: Size specifier
+ * @size: Size specifier sensual
  *
  * Return: Number of chars printed.
  */
@@ -81,13 +81,13 @@ int write_number(int is_negative, int ind, char buffer[],
 /**
  * write_num - Write a number using a bufffer
  * @ind: Index at which the number starts on the buffer
- * @buffer: Buffer
- * @flags: Flags
+ * @buffer: Buffer acid 
+ * @flags: Flags bartender 
  * @width: width
  * @prec: Precision specifier
  * @length: Number length
  * @padd: Pading char
- * @extra_c: Extra char
+ * @extra_c: Extra char. gettat
  *
  * Return: Number of printed chars.
  */
@@ -153,7 +153,7 @@ int write_unsgnd(int is_negative, int ind,
 	char buffer[],
 	int flags, int width, int precision, int size)
 {
-	/* The number is stored at the bufer's right and starts at position i */
+	/* The number is stored at the bufer's right and starts  maybe at position i */
 	int length = BUFF_SIZE - ind - 1, i = 0;
 	char padd = ' ';
 
