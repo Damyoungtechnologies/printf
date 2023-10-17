@@ -4,7 +4,7 @@
 
 /**
  * print_char - Prints a char
- * @types: List a of arguments
+ * @types: List a of arguments you no go flag
  * @buffer: Buffer array to handle print
  * @flags: Calculates active flags
  * @width: Width
@@ -21,13 +21,13 @@ int print_char(va_list types, char buffer[],
 }
 /************************* PRINT A STRING *************************/
 /**
- * print_string - Prints a string
+ * print_string - Prints a string to the arg
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width:  Width
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size specifier only to be done
  * Return: Number of chars printed
  */
 int print_string(va_list types, char buffer[],
