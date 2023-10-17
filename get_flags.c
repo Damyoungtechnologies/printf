@@ -3,7 +3,7 @@
 /**
  * get_flags - flag bearer calculation
  * @format: Formatted string in which to print the arguments
- * @i: take a parameter.
+ * @i: take a parameter. No nice o to point
  * Return: Flags:
  */
 int get_flags(const char *format, int *i)
