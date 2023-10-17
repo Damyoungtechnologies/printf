@@ -3,8 +3,8 @@
 /**
  * get_size - size is needed to cast the argument
  * @format: Formatted string ine arguments
- * @i: List of arguments.
- * Return: Precision.
+ * @i: List of arguments. is need to getsa
+ * Return: Precision. for more accuracy 
  */
 int get_size(const char *format, int *i)
 {
