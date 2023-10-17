@@ -6,7 +6,7 @@
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width
+ * @width: get width only to get it done
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed.
@@ -58,7 +58,7 @@ int print_pointer(va_list types, char buffer[],
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width
+ * @width: get width to get it thrusted
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
@@ -98,9 +98,9 @@ int print_non_printable(va_list types, char buffer[],
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width
+ * @width: get width. arg may not delay
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size specifier alone is reviewed
  * Return: Numbers of chars printed
  */
 
@@ -139,11 +139,11 @@ int print_reverse(va_list types, char buffer[],
 /**
  * print_rot13string - Print a string in rot13.
  * @types: List a of arguments
- * @buffer: Buffer array to handle print
+ * @buffer: Buffer array to handle print only 
  * @flags:  Calculates active flags
- * @width: get width
+ * @width: get width. hope is not lost
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size specifier. count is great
  * Return: Numbers of chars printed
  */
 int print_rot13string(va_list types, char buffer[],
