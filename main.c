@@ -5,7 +5,7 @@
 /**
  * main - Entry point level for the compiler
  *
- * Return: Always 0
+ * Return: Always 0. C is crazy no cap
  */
 int main(void)
 {
